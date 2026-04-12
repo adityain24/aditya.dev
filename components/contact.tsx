@@ -32,23 +32,25 @@ export default function Contact() {
         or through this form.
       </p>
 
-      <form
-        className="mt-10 flex flex-col dark:text-black"
-        action={(formData) => {
-          startTransition(async () => {
-            setPending(true);
-            const { error } = await sendEmail(formData);
-            setPending(false);
+<form
+  className="mt-10 flex flex-col dark:text-black"
+  action={(formData) => {
+    startTransition(() => {
+      (async () => {
+        setPending(true);
+        const { error } = await sendEmail(formData);
+        setPending(false);
 
-            if (error) {
-              toast.error(error);
-              return;
-            }
+        if (error) {
+          toast.error(error);
+          return;
+        }
 
-            toast.success("Email sent successfully!");
-          });
-        }}
-      >
+        toast.success("Email sent successfully!");
+      })();
+    });
+  }}
+>
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
