@@ -35,73 +35,74 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Developer",
+    location: "Leading Dot Solutions, Noida | Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Built a React Native app with 10+ reusable components, developed a Laravel backend with 15+ REST API endpoints, and designed a MySQL schema that cut query execution time by 25–30%.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Feb 2026 – Present",
+  },
+  {
+    title: "Data Analyst Intern",
+    location: "Red Dot Foundation – Safecity | Remote",
+    description:
+      "Built interactive dashboards to surface safety incident trends, cleaned 20,000+ records, and translated raw data into actionable insights for public safety stakeholders.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2025 – Jan 2026",
+  },
+  {
+    title: "Google Developers Club — Lead",
+    location: "SRM University, Sonepat",
+    description:
+      "Led 5+ cross-functional student teams, organized technical workshops, and helped 100+ students build collaborative development habits using Git and agile practices.",
+    icon: React.createElement(LuGraduationCap),
+    date: "June 2021 – Jan 2025",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ReactNative-Task-ManagerApp",
+    href: "https://github.com/adityain24/React-Native-Task-Manager-App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Cross-platform Task Manager app using React Native and TypeScript with full CRUD support for tasks and notes on both Android and iOS",
+    tags: ["TypeScript", "JavaScript", "React Native", "NativeWind"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "PHPAuthManagement-System",
+    href: "https://github.com/adityain24/PHPAuthManagement-System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "User-authentication system in PHP with secure registration, login & session management on a local Apache XAMPP server.",
+    tags: ["PHP", "MySQL", "XAMPP", "Apache", "Jquery"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "MotherOfAllDeals (India-Europe) FTA",
+    href: "https://github.com/adityain24/Mother-of-all-deals-ind-eu-fta",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Project analyzes the potential impact of the India – EuropeanUnion Free Trade Agreement negotiations on passenger vehicle import costs.",
+    tags: ["Python", "SQL", "Excel"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "NextJS",
+  "TypeScript",
+  "PHP",
+  "Laravel",
   "Python",
-  "Django",
-  "Framer Motion",
+  "SQL",
+  "React Native",
+  "NativeWind",
+  "Tailwind CSS",
+  "REST APIs",
+  "MySQL",
+  "Power BI",
+  "Tableau",
+  "Google Cloud Platform",
+  "Jupyter Notebook",
 ] as const;
