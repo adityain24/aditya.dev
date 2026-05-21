@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import inventImg from "@/public/inventImg.png";
 
 export const links = [
   {
@@ -61,6 +62,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Inventory Management FAST API System",
+    href: "https://github.com/adityain24/Inventory-Manager-FastApi-React",
+    description:
+      "A full-stack inventory management system with a FastAPI backend and React frontend.",
+    tags: ["Javascript", "React", "Python", "FastAPI", "Tailwind CSS"],
+    imageUrl: inventImg,
+  },
   {
     title: "ReactNative-Task-ManagerApp",
     href: "https://github.com/adityain24/React-Native-Task-Manager-App",
